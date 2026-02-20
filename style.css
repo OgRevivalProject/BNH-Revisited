@@ -1,0 +1,117 @@
+/* page styles */
+body {
+  font-family: Georgia, serif;
+  background-color: #f4f0eb;
+  color: #222;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+/* heading */
+h2 {
+  font-size: 2.4em;
+  font-weight: bold;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* tagline and prompt */
+#tagline {
+  font-size: 1.15em;
+  margin-bottom: 22px;
+  color: #444;
+}
+
+#prompt-text {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* winning conditions list, left-aligned in a centered block */
+.list-wrap {
+  display: inline-block;
+  text-align: left;
+  margin: 6px auto 22px auto;
+}
+
+ul {
+  font-size: 1.08em;
+  line-height: 2.1em;
+  padding-left: 22px;
+  margin: 0;
+  color: #333;
+}
+
+/* hr - about 50% wider than the button row */
+.game-hr {
+  width: 340px;
+  border: none;
+  border-top: 1px solid #999;
+  margin: 14px auto;
+}
+
+/* choice buttons */
+#btnRow {
+  margin: 10px auto;
+}
+
+#btnRow button,
+#playAgainRow button {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  padding: 6px 20px;
+  margin: 0 5px;
+  border: 1px solid #888;
+  background-color: #e8e0d5;
+  color: #222;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#btnRow button:hover,
+#playAgainRow button:hover {
+  background-color: #d4c8b8;
+}
+
+/* results box */
+#resultsBox {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #888;
+  background-color: #ddd8cf;
+  padding: 20px 32px;
+  margin: 18px auto 12px auto;
+  min-width: 290px;
+  border-radius: 2px;
+}
+
+#resultsBox p {
+  font-size: 1.35em;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #1a1a1a;
+}
+
+/* win counter */
+#winCounter {
+  margin: 10px auto;
+}
+
+#winCounter p {
+  font-size: 1.1em;
+  margin: 3px 0;
+  color: #333;
+}
+
+/* play again button */
+#playAgainRow {
+  margin: 10px auto;
+}
+
+/* hides elements until needed */
+.hidden {
+  display: none;
+}
