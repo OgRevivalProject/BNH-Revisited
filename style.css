@@ -1,0 +1,128 @@
+/* ==========================
+   Page base styles
+   ========================== */
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+  color: #111;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 0;
+}
+
+/* ==========================
+   Heading
+   ========================== */
+h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* ==========================
+   Tagline and prompt text
+   ========================== */
+#tagline {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+#prompt-text {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* ==========================
+   Winning conditions list
+   left-aligned inside a centered block
+   ========================== */
+.list-wrap {
+  display: inline-block;
+  text-align: left;
+  margin: 10px auto 20px auto;
+}
+
+ul {
+  font-size: 1.05em;
+  line-height: 2em;
+  padding-left: 22px;
+  margin: 0;
+}
+
+/* ==========================
+   Horizontal rules
+   ========================== */
+.game-hr {
+  width: 42%;
+  border: none;
+  border-top: 1px solid #888;
+  margin: 12px auto;
+}
+
+/* ==========================
+   Button row
+   ========================== */
+#btnRow {
+  margin: 10px auto;
+}
+
+#btnRow button,
+#playAgainRow button {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  padding: 5px 18px;
+  margin: 0 4px;
+  border: 1px solid #555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+#btnRow button:hover,
+#playAgainRow button:hover {
+  background-color: #ddd;
+}
+
+/* ==========================
+   Results box
+   ========================== */
+#resultsBox {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #777;
+  background-color: #e0e0e0;
+  padding: 18px 28px;
+  margin: 16px auto 10px auto;
+  min-width: 280px;
+}
+
+#resultsBox p {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* ==========================
+   Win counter
+   ========================== */
+#winCounter {
+  margin: 10px auto;
+}
+
+#winCounter p {
+  font-size: 1.05em;
+  margin: 2px 0;
+}
+
+/* ==========================
+   Play Again row
+   ========================== */
+#playAgainRow {
+  margin: 10px auto;
+}
+
+/* ==========================
+   Hidden helper class
+   ========================== */
+.hidden {
+  display: none;
+}

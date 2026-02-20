@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Author of this game -->
+  <meta name="author" content="Shane R">
+
+  <title>Bear Ninja Hunter</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Bear, Ninja, Hunter</h2>
+
+  <p id="tagline">Play against the computer!</p>
+
+  <!-- Winning conditions, left-aligned inside a centered wrapper -->
+  <div class="list-wrap">
+    <ul>
+      <li>The Bear Beats the Hunter.</li>
+      <li>The Hunter beats the Ninja.</li>
+      <li>And the Ninja beats the Bear.</li>
+    </ul>
+  </div>
+
+  <p id="prompt-text">Click a button below to select your choice.</p>
+
+  <hr class="game-hr">
+
+  <!-- Player choice buttons -->
+  <div id="btnRow">
+    <button onclick="playGame('Bear')">Bear</button>
+    <button onclick="playGame('Ninja')">Ninja</button>
+    <button onclick="playGame('Hunter')">Hunter</button>
+  </div>
+
+  <hr class="game-hr">
+
+  <!-- Results box, hidden until a round is played -->
+  <div id="resultsBox" class="hidden">
+    <p id="playerChoiceLine"></p>
+    <p id="computerChoiceLine"></p>
+    <p id="winnerLine"></p>
+  </div>
+
+  <!-- Win counter, hidden until a round is played -->
+  <div id="winCounter" class="hidden">
+    <p id="yourWins"></p>
+    <p id="compWins"></p>
+  </div>
+
+  <hr id="bottomHr" class="game-hr hidden">
+
+  <!-- Play Again button row, hidden until a round is played -->
+  <div id="playAgainRow" class="hidden">
+    <button onclick="resetGame()">Play Again?</button>
+  </div>
+
+  <hr id="bottomHr2" class="game-hr hidden">
+
+  <script src="script.js"></script>
+
+</body>
+</html>
